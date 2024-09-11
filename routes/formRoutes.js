@@ -68,8 +68,6 @@ router.delete('/:certificateno', async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 });
-router.get('/text', (req, res) => {
-  res.send('Submit route');
-});
+
 
 module.exports = router;
